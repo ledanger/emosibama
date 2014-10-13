@@ -34,7 +34,9 @@ blockquote:before, blockquote:after, q:before, q:after {
     content: none;
 }
 
-
+/* ========================================================================== 
+ * REGISTER BUTTON
+   ========================================================================== */
 /*.actions {
     margin-bottom: 20px;
     margin-top:20px;
@@ -58,6 +60,58 @@ blockquote:before, blockquote:after, q:before, q:after {
 .actions a:focus, .green-button:focus, .pagination a:focus, #comment-form input[type='submit']:focus {
     border-color: rgba(73, 134, 18, 0.7)
 }*/
+
+/* Button 6 */
+.btn-reg {
+    border: none;
+    font-family: 'Bitter';
+    letter-spacing: 5px;
+    font-size: 200%;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 10px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #474747;
+    background: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+.btn-reg:active {
+    top: 2px;
+}
+
+/* Button 6a */
+.btn-reg {
+    border:6px solid #474747;
+}
+
+.btn-reg:hover {
+    background: #474747;
+    color: #fff;
+}
+
+.btn-reg:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+ /* ==========================================================================*/
 
 .span2 {
    /* border-collapse: collapse;*/
@@ -231,6 +285,11 @@ footer .right {
 }
 
 
+.projectinfo{ 
+        display: none; 
+    }
+
+
 #logo-university {
     position:absolute;
     top:1.75rem;
@@ -277,8 +336,13 @@ footer .right {
     min-height: 320px;
 }
 
-/*body, #introduction, #work, #contact, #program{
+/*body, {
     background-color: white;
+}*/
+
+/*body {
+    background-image: url('img/shattered.png');
+    background-repeat: repeat;
 }*/
 
 #loading {
@@ -680,7 +744,7 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -733,6 +797,11 @@ address {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
     font-size: 95%;
     font-weight: 200;
+    color: #474747;
+}
+
+.span2 th {
+    color: #474747;
 }
 
 #project h1 {
@@ -935,9 +1004,14 @@ label {
 
     .extrainfo {
     font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
-    font-size: 70%;
+    font-size: 95%;
     font-weight: 200;
 }
+
+.projectinfo{ 
+        display: inline;
+        font-style: italic;
+    }
 
 
     #title {
@@ -993,7 +1067,7 @@ label {
         color: #474747;
     }
 
-    /*.btn-more {
+/*    .btn-more {
         display: block;
         position: absolute;
         left: 50%;
@@ -1043,11 +1117,6 @@ label {
         font-size: 107.5%;
     }
 
-    .extrainfo {
-    font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
-    font-size: 70%;
-    font-weight: 200;
-}
 
 
     */
@@ -1146,11 +1215,6 @@ label {
         font-size: 125%;
     }
 
-    .extrainfo {
-    font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
-    font-size: 70%;
-    font-weight: 200;
-}
 
 
     #projectheader {
@@ -1178,7 +1242,7 @@ label {
     }
 
     .break { 
-  /*      display: none; */
+        display: none; 
     }
 
 /*    .btn {
@@ -1193,10 +1257,14 @@ label {
         font-size: 125%;
     }
 
+    h2 {
+        font-size: 300%;
+    }
+
 
     .extrainfo {
     font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
-    font-size: 70%;
+    font-size: 90%;
     font-weight: 200;
 }
 
@@ -1225,8 +1293,8 @@ label {
 
     }
 
-    .break { 
-        display: none; 
+    .projectinfo{ 
+        display: inline; 
     }
 
 /*    .btn {
