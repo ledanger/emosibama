@@ -114,6 +114,14 @@ h2 {
     
 }
 
+.subtitle2 {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 200;
+    
+}
+
+
 
 
 
@@ -219,7 +227,6 @@ footer .right {
 
     background: url('img/grau.png') no-repeat bottom;
     background-size: cover;
-    /*background-color: #b1b1b1;*/
     
 }
 
@@ -253,11 +260,11 @@ footer .right {
     text-align: center;
 }
 
-#pageheader {
+/*#pageheader {
     height: 22em;
-    background: url('img/grau.png') no-repeat center 92%;
+    background: url('img/grau.png') no-repeat center 100%;
     background-size: cover;
-}
+}*/
 
 #title {
     position: relative;
@@ -692,6 +699,8 @@ p/*, label*/ {
     line-height: 1.55em;
 }
 
+
+
 address {
     margin-top: 0.75em;
     font-size: 125%;
@@ -924,6 +933,13 @@ label {
         font-size: 100%;
     }
 
+    .extrainfo {
+    font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+    font-size: 70%;
+    font-weight: 200;
+}
+
+
     #title {
         padding-top: 1em;
         padding-left: 5em;
@@ -934,7 +950,7 @@ label {
         font-size: 340%;
         text-align: margin-left;
         padding-left: 0em;
-        color: #5af551;
+        color: #474747;
     }
 
     .subtitle {
@@ -965,7 +981,7 @@ label {
         font-size: 320%;
         text-align: margin-left;
         padding-left: 0em;
-        color: #fe18b8;
+        color: #474747;
     }
 
 
@@ -1027,6 +1043,13 @@ label {
         font-size: 107.5%;
     }
 
+    .extrainfo {
+    font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+    font-size: 70%;
+    font-weight: 200;
+}
+
+
     */
     .layer {
         background-color: rgba(231, 76, 60, 0.75);
@@ -1056,7 +1079,7 @@ label {
         font-size: 370%;
         text-align: margin-left;
         padding-left: 1em;
-        color: #91d1ae;
+        color: #474747;
     }
 
     .subtitle {
@@ -1123,6 +1146,13 @@ label {
         font-size: 125%;
     }
 
+    .extrainfo {
+    font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+    font-size: 70%;
+    font-weight: 200;
+}
+
+
     #projectheader {
         height: 40em;
     }
@@ -1132,7 +1162,7 @@ label {
         font-size: 400%;
         text-align: margin-left;
         padding-left: 3em;
-        color: #f8c993;
+        color: #474747;
     }
 
     .subtitle {
@@ -1163,6 +1193,14 @@ label {
         font-size: 125%;
     }
 
+
+    .extrainfo {
+    font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+    font-size: 70%;
+    font-weight: 200;
+}
+
+
     #projectheader {
         height: 40em;
     }
@@ -1172,7 +1210,7 @@ label {
         font-size: 400%;
         text-align: margin-left;
         padding-left: 3em;
-        color: #5405c9;
+        color: #474747;
     }
 
     .subtitle {
