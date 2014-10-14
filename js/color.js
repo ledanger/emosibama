@@ -1,21 +1,24 @@
         $('body').colorScroll({
             colors: [{
-                color: '#c3a0a5',
+                color: '#bfb1ab',
                 position: '0%'
             }, {
-                color: '#927ca5',
+                color: '#c3a0a5',
                 position: '20%'
             }, {
-                color: '#f7a0bc',
+                color: '#d78e94',
                 position: '40%'
             }, {
-                color: '#f7d8a8',
+                color: '#ad99d6',
                 position: '60%'
             }, {
-                color: '#adf7c3',
+                color: '#b5d6b7',
                 position: '80%'
             }, {
-                color: '#a1bbf7',
+                color: '#abd6be',
+                position: '90%'
+            }, {
+                color: '#efe7cb',
                 position: '100%'
             }]
         });
@@ -24,7 +27,8 @@
 
 
 
-        //      $('body').colorScroll({
+        //   #b5d6b7
+        //   $('body').colorScroll({
         //     colors: [{
         //         color: '#a2e9ff',
         //         position: '0%'

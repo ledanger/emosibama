@@ -63,29 +63,37 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 /* Button 6 */
 .btn-reg {
-    border: none;
     font-family: 'Bitter';
+    font-weight: 700;
+    letter-spacing: 1px;
     letter-spacing: 5px;
     font-size: 200%;
+    display: inline-block;
+    margin: 0 auto;
+    border: none;
+    padding: 10px 60px;
+    color: #474747;
+
+/*    
+  
     color: inherit;
     background: none;
     cursor: pointer;
-    padding: 10px 80px;
+    
     display: inline-block;
-    margin: 15px 30px;
+    margin: 0 auto;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
+   
     outline: none;
     position: relative;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    color: #474747;
+    
     background: none;
     -webkit-transition: none;
     -moz-transition: none;
-    transition: none;
+    transition: none;*/
 }
 
 .btn-reg:active {
@@ -95,6 +103,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 /* Button 6a */
 .btn-reg {
     border:6px solid #474747;
+
 }
 
 .btn-reg:hover {
@@ -115,15 +124,21 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 .span2 {
    /* border-collapse: collapse;*/
-    border-spacing: 0;
+    border-spacing: 10px;
     margin: 0 auto;
     position: relative;
     font-size: 150%;
+    font-family: 'Bitter';
 
 }
 
 .span2 td {
     padding-left: 1em;
+    font-family: 'Bitter';
+}
+
+.span2 tr {
+    padding-top: 20px;
 }
 
 /*.span2{
@@ -151,9 +166,13 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 body {
-    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Bitter', 'Helvetica Neue', Arial, sans-serif;
     font-size: 95%;
     font-weight: 200;
+}
+
+#colorcontainer {
+    size:2200px;
 }
 
 h2 {
@@ -192,7 +211,7 @@ h2 {
 }
 
 *::selection {
-    background: #E06A5D;
+    background: #474747;
     color: #FFF;
     text-shadow: none;
 }
@@ -206,7 +225,7 @@ hr {
 }
 
 hr.title {
-    background-color: #FFF;
+    background-color: transparent;
 }
 
 
@@ -232,6 +251,7 @@ noscript {
 .clearfix:before, .clearfix:after {
     content: " ";
     display: table;
+    opacity: 0.1;
 }
 
 .clearfix:after {
@@ -263,9 +283,9 @@ section hr {
 footer {
     position: relative;
     padding: 2.75em 0 2.25em;
-    background-color: #F2F2F2;
     text-align: center;
-    border-top: 1px solid #E6E6E6;
+/*    border-top: 1px solid #E6E6E6;*/
+
 }
 
 footer .left, footer .right {
@@ -277,11 +297,18 @@ footer .right {
 }
 
 #mainheader {
-    height: 33.5em;
+ /*   height: 33.5em;
+    background: url('img/grau.png') no-repeat center 100%;
+    background-size: cover;*/
 
-    background: url('img/grau.png') no-repeat bottom;
-    background-size: cover;
     
+}
+
+#main-img {
+    height: 33.5;
+    background: url('img/grau.png') no-repeat center 100%;
+    background-size: cover;
+
 }
 
 
@@ -312,18 +339,15 @@ footer .right {
    
 }
 
-#projectheader {
+/*#projectheader {
     height: 23.75em;
-   /* background-color: #E06A5D;*/
+    background-color: #E06A5D;
     background: linear-gradient(#c7574a, #e28075);
     text-align: center;
-}
-
-/*#pageheader {
-    height: 22em;
-    background: url('img/grau.png') no-repeat center 100%;
-    background-size: cover;
 }*/
+
+
+
 
 #title {
     position: relative;
@@ -793,8 +817,14 @@ address {
     padding-left: 2.2em;
 }
 
+    .extrainfo {
+    font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+    font-size: 110%;
+    font-weight: 200;
+}
+
 .span2 td {
-    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'BITTER', 'Helvetica Neue', Arial, sans-serif;
     font-size: 95%;
     font-weight: 200;
     color: #474747;
@@ -848,7 +878,7 @@ footer p {
     line-height: 1.75em;
     font-size: 90%;
     font-weight: 400;
-    color: #F39990;
+    color: #474747;
 }
 
 footer ul {
@@ -884,15 +914,15 @@ a {
     text-decoration: none;
     -webkit-transition: all .25s ease-out 0s;
     transition: all .25s ease-out 0s;
-    color: #E06A5D;
+    color: #474747;
 }
 
-a:hover, a:focus {
+a:, a:focus {
     color: #F39990;
 }
 
 footer a {
-    color: #F39990;
+    color: #474747;
     font-weight: 400;
 }
 
@@ -902,7 +932,7 @@ footer ul a {
 }
 
 footer a:hover, footer a:focus {
-    color: #C0C0C0;
+    color: #414141;
 }
 
 
@@ -921,7 +951,7 @@ footer a:hover, footer a:focus {
 }
 
 .btn:hover, .btn:focus {
-    background-color: #F39990;
+    background-color: #f3eaeb;
     color: #FFF;
 }
 
@@ -934,10 +964,9 @@ footer a:hover, footer a:focus {
 
 .btn-project {
     display: block;
-    width: 32px;
-    height: 32px;
     margin: 0 auto;
     background: url('img/enter.svg') no-repeat;
+    margin-top: 20px;
 }
 
 .btn-project:hover {
@@ -958,7 +987,7 @@ form {
 }
 
 label {
-    color: #808080;
+    color: #474747;
 }
 
 .form-wrapper {
@@ -1011,6 +1040,7 @@ label {
 .projectinfo{ 
         display: inline;
         font-style: italic;
+        color: #d6caa2;
     }
 
 
@@ -1140,8 +1170,12 @@ label {
 
     }
 
-    #mainheader {
+   /* #mainheader {
         height: 36em;
+    }*/
+
+    #main-img {
+        height: 40em;
     }
 
     #page-title {
@@ -1264,7 +1298,7 @@ label {
 
     .extrainfo {
     font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
-    font-size: 90%;
+    font-size: 95%;
     font-weight: 200;
 }
 
