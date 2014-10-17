@@ -7,7 +7,7 @@ pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd,
 q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt,
 dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
 thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby, section, summary, time,
+footer, header, hgroup, menu, nav, output, ruby, h2, summary, time,
 mark, audio, video {
     margin: 0;
     padding: 0;
@@ -34,91 +34,7 @@ blockquote:before, blockquote:after, q:before, q:after {
     content: none;
 }
 
-/* ========================================================================== 
- * REGISTER BUTTON
-   ========================================================================== */
-/*.actions {
-    margin-bottom: 20px;
-    margin-top:20px;
-}
 
-.actions a{
-    background: #4f6789;
-    border: 20px;
-    border-bottom: 3px solid #474747;
-    color: #fff;
-    font-weight: 600;
-    font-family: 'Bitter', serif;
-    font-size: 200%;
-    transition: border-color 1s;
-    text-decoration: none;
-    white-space: nowrap;
-}*/
-
-/*.actions a:hover, .green-button:hover, .pagination a:hover, #comment-form input[type='submit']:hover,
-.actions a:active, .green-button:active, .pagination a:active, #comment-form input[type='submit']:active,
-.actions a:focus, .green-button:focus, .pagination a:focus, #comment-form input[type='submit']:focus {
-    border-color: rgba(73, 134, 18, 0.7)
-}*/
-
-/* Button 6 */
-.btn-reg {
-    font-family: 'Bitter';
-    font-weight: 700;
-    letter-spacing: 1px;
-    letter-spacing: 5px;
-    font-size: 200%;
-    display: inline-block;
-    margin: 0 auto;
-    border: none;
-    padding: 10px 60px;
-    color: #474747;
-
-/*    
-  
-    color: inherit;
-    background: none;
-    cursor: pointer;
-    
-    display: inline-block;
-    margin: 0 auto;
-    text-transform: uppercase;
-   
-    outline: none;
-    position: relative;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    
-    background: none;
-    -webkit-transition: none;
-    -moz-transition: none;
-    transition: none;*/
-}
-
-.btn-reg:active {
-    top: 2px;
-}
-
-/* Button 6a */
-.btn-reg {
-    border:6px solid #474747;
-
-}
-
-.btn-reg:hover {
-    background: #474747;
-    color: #fff;
-}
-
-.btn-reg:after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
 
  /* ==========================================================================*/
 
@@ -269,7 +185,6 @@ header {
 
 
 
-
 section {
     position: relative;
     padding: 3.25em 1.25em 4.375em;
@@ -297,8 +212,8 @@ footer .right {
 }
 
 #mainheader {
- /*   height: 33.5em;
-    background: url('img/grau.png') no-repeat center 100%;
+height: 33.5em;
+  /*   background: url('img/grau.png') no-repeat center 100%;
     background-size: cover;*/
 
     
@@ -355,10 +270,24 @@ footer .right {
 }
 
 
-#page {
-    position: relative;
+#page-img {
+    position: relativ;
     min-height: 320px;
+    background: url('img/shattered.png');
+    z-index: -2;
+    opacity: 1;
+    
 }
+
+#page-color {
+    position: relative;
+    height: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0.9;
+}
+
+
 
 /*body, {
     background-color: white;
@@ -566,6 +495,70 @@ footer .right {
 #awwwards {
     display: none;
 }
+
+
+
+
+/* ========================================================================== 
+ * REGISTER BUTTON
+   ========================================================================== */
+
+.btn-reg {
+    font-family: 'Bitter';
+    font-weight: 700;
+    letter-spacing: 1px;
+    letter-spacing: 5px;
+    font-size: 200%;
+    width: inherit;
+    text-align: center;
+    display: block;
+    position: relative;
+
+    
+   
+    border: none;
+    padding: 10px 60px;
+    color: #474747;
+    background: none;
+    cursor: pointer;
+    margin: 0 auto;
+    text-transform: uppercase;*/
+  
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    
+    background: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+.btn-reg:active {
+    top: 2px;
+}
+
+.btn-reg {
+    border:6px solid #474747;
+
+}
+
+.btn-reg:hover {
+    background: #474747;
+    color: #fff;
+    opacity: 0.7;
+}
+/*
+.btn-reg:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}*/
 
 /* ==========================================================================  
  * Animations
@@ -962,12 +955,6 @@ footer a:hover, footer a:focus {
     margin: 2.25em auto 0;
 }
 
-.btn-project {
-    display: block;
-    margin: 0 auto;
-    background: url('img/enter.svg') no-repeat;
-    margin-top: 20px;
-}
 
 .btn-project:hover {
     opacity: 0.4;
@@ -1030,6 +1017,10 @@ label {
     body {
         font-size: 100%;
     }
+
+.btn-reg{
+    width: 60%;
+}
 
     .extrainfo {
     font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
@@ -1198,16 +1189,17 @@ label {
         border-radius: 6px;
     }
 
-    #introduction .circle {
+  /*  #introduction .circle {
         width: 268px;
         height: 268px;
         border-radius: 268px;
+    }*/
+
+    #introduction .section-title{
+        margin: 0 auto;
     }
 
-    #authorimg {
-        width: 256px;
-        height: 256px;
-    }
+
 
     p, span, blockquote, ul, ol, li, small, em, pre {
         color: #666
