@@ -349,7 +349,7 @@ height: 33.5em;
 }
 
 .project:hover .mask {
-    opacity: 0.95;
+    opacity: 0.9;
 }
 
 .mask {
@@ -1028,10 +1028,13 @@ label {
     font-weight: 200;
 }
 
-.projectinfo{ 
+.projectinfo{
+        font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+        font-size: 110%;
+        font-weight: 200;
         display: inline;
         font-style: italic;
-        color: #d6caa2;
+        color: #474747;
     }
 
 
@@ -1202,11 +1205,11 @@ label {
 
 
     p, span, blockquote, ul, ol, li, small, em, pre {
-        color: #666
+        color: #474747
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: #595959
+        color: #474747
     }
 
     p, form, .skill {
