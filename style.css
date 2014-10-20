@@ -43,7 +43,7 @@ blockquote:before, blockquote:after, q:before, q:after {
     border-spacing: 10px;
     margin: 0 auto;
     position: relative;
-    font-size: 150%;
+    font-size: 125%;
     font-family: 'Bitter';
 
 }
@@ -82,6 +82,8 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 body {
+	margin: 0;
+	padding: 0;
     font-family: 'Bitter', 'Helvetica Neue', Arial, sans-serif;
     font-size: 95%;
     font-weight: 200;
@@ -187,7 +189,7 @@ header {
 
 section {
     position: relative;
-    padding: 3.25em 1.25em 4.375em;
+    padding: 3.25em 0 4.375em 0;
 /*    background-color: #FFF;*/
 }
 
@@ -227,10 +229,6 @@ height: 33.5em;
 }
 
 
-.projectinfo{ 
-        display: none; 
-    }
-
 
 #logo-university {
     position:absolute;
@@ -241,7 +239,7 @@ height: 33.5em;
 #logo-university a {
     display:block;
     float:left;
-    margin-left:1rem
+    margin-left:1rem;
     position: absolute;
 }
 
@@ -341,7 +339,7 @@ height: 33.5em;
     width: 100%;
     max-width: 768px;
     margin: 0 auto 2.75em;
-    cursor: crosshair;
+    xcursor: crosshair;
 }
 
 .project:last-of-type {
@@ -818,7 +816,8 @@ address {
 
 .span2 td {
     font-family: 'BITTER', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 95%;
+    font-size: 100%;
+		line-height: 120%;
     font-weight: 200;
     color: #474747;
 }
@@ -834,8 +833,8 @@ address {
     letter-spacing: 1px;
 }
 
-#project p {
-    padding-bottom: 1.25em;
+.project p {
+  padding-bottom: 2em;
 }
 
 #info p {
@@ -956,8 +955,18 @@ footer a:hover, footer a:focus {
 }
 
 
+.btn-project {
+	font-size: .9em;
+	padding: .25em;
+	background-color: rgba(155,155,155,.5);
+	border-radius: .25em;
+  opacity: 0.66;	
+}
+
 .btn-project:hover {
-    opacity: 0.4;
+	background-color: #333;
+	color: #fff;
+  opacity: 1;
 }
 
 .btn-more {
@@ -1028,13 +1037,11 @@ label {
     font-weight: 200;
 }
 
-.projectinfo{
+.projectinfo {
         font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
         font-size: 110%;
         font-weight: 200;
-        display: inline;
-        font-style: italic;
-        color: #474747;
+        color: #333;
     }
 
 
@@ -1205,11 +1212,12 @@ label {
 
 
     p, span, blockquote, ul, ol, li, small, em, pre {
-        color: #474747
+        xcolor: #474747;
+				color: #333;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: #474747
+        color: #474747;
     }
 
     p, form, .skill {
@@ -1322,10 +1330,6 @@ label {
 
     }
 
-    .projectinfo{ 
-        display: inline; 
-    }
-
 /*    .btn {
         font-size: 75%;
     }*/
@@ -1390,3 +1394,7 @@ label {
     width: 61%;
 }
 
+
+#location h2 {
+	padding-bottom: 1em;
+}
