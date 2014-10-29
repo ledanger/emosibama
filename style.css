@@ -214,7 +214,7 @@ footer .right {
 }
 
 #mainheader {
-height: 33.5em;
+height: 35em;
   /*   background: url('img/grau.png') no-repeat center 100%;
     background-size: cover;*/
 
@@ -958,9 +958,9 @@ footer a:hover, footer a:focus {
 .btn-project {
 	font-size: .9em;
 	padding: .25em;
-	background-color: rgba(155,155,155,.5);
+	background-color: rgba(255,255,255,.5);
 	border-radius: .25em;
-  opacity: 0.66;	
+  opacity: .66;	
 }
 
 .btn-project:hover {
@@ -1325,7 +1325,7 @@ label {
     }
 
     #title {
-        padding-top: 5em;
+        padding-top: 0em;
         padding-left: 4em;
 
     }
